@@ -1,0 +1,27 @@
+{
+  "name": "next-react-exercise",
+  "version": "0.0.1",
+  "description": "Excercise with Next.js and React.js",
+  "main": "index.js",
+  "author": "Satoshi Takeda <tkdnation@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next dev",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^9.0.3",
+    "node-fetch": "^2.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/styled-components": "^4.1.18",
+    "babel-plugin-styled-components": "^1.10.6",
+    "typescript": "^3.5.3"
+  }
+}
